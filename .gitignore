@@ -1,0 +1,29 @@
+# Python 컴파일 및 캐시
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 환경변수 및 보안 정보 (절대 커밋 금지)
+.env
+.env.local
+.env.*.local
+
+# Streamlit 로컬 설정
+.streamlit/secrets.toml
+
+# 업로드 및 임시 파일
+uploads/*
+!uploads/.gitkeep
+temp/
+*.tmp
+*.log
+
+# IDE 및 OS 설정
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 테스트/백업 산출물
+app_backup.py
+*.sLDH
